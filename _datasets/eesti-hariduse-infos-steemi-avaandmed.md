@@ -12,7 +12,7 @@ category_en:
   - Science and Technology
 resources:
   - name: Õppeasutuste avaandmed
-    url: 'http://enda.ehis.ee/avaandmed/rest/oppeasutused/-/Kool/E/-/-/-/-/-/-/0/0/XML'
+    url: 'http://enda.ehis.ee/avaandmed/rest/oppeasutused/-/Kool/E/-/-/-/-/-/-/-/0/0/XML'
     format: XML
     interactive: 'False'
   - name: Õppeasutuste tegevuslubade avaandmed
@@ -54,7 +54,7 @@ resources:
 license: 'https://creativecommons.org/licenses/by-sa/3.0/ee/legalcode'
 update_freq: ''
 date_issued: 2018/04/19
-date_modified: 2020/03/14
+date_modified: 2020/03/31
 organization: Haridus- ja Teadusministeerium
 maintainer_name: Haridus- ja Teadusministeerium
 maintainer_email: hm@hm.ee

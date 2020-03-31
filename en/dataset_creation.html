@@ -4,7 +4,7 @@ permalink: /en/dataset_creation/
 ref: dataset_creation
 lang: en
 ---
-<form method="POST" action="https://dev.staticman.net/v3/entry/github/okestonia/opendata.riik.ee/master/datasets" id = "datasetform" class="dataset-form">
+<form method="POST" action="https://avaandmed-staticman.herokuapp.com/v2/entry/okestonia/opendata.riik.ee/master/datasets" id = "datasetform" class="dataset-form">
   <input name="options[redirect]" type="hidden" value="https://opendata.riik.ee">
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
   <div class = "form-group row">
@@ -52,7 +52,7 @@ lang: en
     <option value="Health">Health </option>
     <option value="Government and Public Sector">Government and Public Sector </option>
     <option value="Education, Culture and Sport">Education, Culture and Sport </option>
-    <option value="Economy and Finance">Majandus ja rahandus </option>
+    <option value="Economy and Finance">Economy and Finance </option>
     <option value="Agriculture, Fisheries, Forestry and Food">Agriculture, Fisheries, Forestry and Food </option>
     <option value="Environment">Environment </option>
     <option value="Transport">Transport </option>
@@ -118,12 +118,7 @@ lang: en
   <input name="fields[maintainer_phone]" id = "t16" type="text" class="form-control mb-2">
     </div>
     </div>
-  <div class = "form-group row">
-    <div class ="col-md-12 mb-3">
-    <label class ="label-required" for ="t17">Github Username / Submitter Name</label>
-    <input name="fields[github_name]" id="t17" type = "text" class = "form-control mb-2" required>
-    </div>
-    </div>
+
 
   <button class = "btn-primary" type="submit">Submit</button>
 
